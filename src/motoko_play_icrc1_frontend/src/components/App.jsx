@@ -32,9 +32,9 @@ function App() {
   const { unityProvider, sendMessage, addEventListener, removeEventListener } =
     useUnityContext({
       loaderUrl: "motokoBuild.loader.js",
-      dataUrl: "motokoBuild.data",
-      frameworkUrl: "motokoBuild.framework.js",
-      codeUrl: "motokoBuild.wasm",
+      dataUrl: "motokoBuild.data.gz",
+      frameworkUrl: "motokoBuild.framework.js.gz",
+      codeUrl: "motokoBuild.wasm.gz",
     });
 
   //for unity to react
